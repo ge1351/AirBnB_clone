@@ -1,13 +1,12 @@
 #!/usr/bin/python3
-""" Subclass of BaseModel in charge of saving the state name """
+"""Defines the State class."""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """ Class Used to represent an American State
-        Attributes
-        ----------
-        name : str
-            the name of the state
-            """
+    """Represent a state.
+    Attributes:
+        name (str): The name of the state.
+    """
+
     name = ""
