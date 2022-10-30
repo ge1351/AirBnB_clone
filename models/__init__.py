@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Initi from module models """
+"""__init__ magic method for models directory"""
 from models.engine.file_storage import FileStorage
 
 
